@@ -1,0 +1,24 @@
+name: 'Convert README to PDF'
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build_pdf:
+    name: Build PDF
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: baileyjm02/markdown-to-pdf@master
+        with:
+          input_path: README.md
+          output_dir: pdfs
+          image_import: ./images
+          build_html: false
+      - uses: actions/upload-artifact@v3
+        with:
+          name: docs
+          path: pdfs
