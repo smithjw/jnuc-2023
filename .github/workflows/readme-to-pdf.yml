@@ -16,9 +16,8 @@ jobs:
         with:
           input_path: README.md
           output_dir: pdfs
-          image_import: ./images
           build_html: false
       - uses: actions/upload-artifact@v3
         with:
-          name: docs
+          name: README
           path: pdfs

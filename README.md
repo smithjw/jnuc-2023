@@ -1,8 +1,14 @@
-# So what's all the fuss about CI/CD? GitHub Actions for the Mac Admin
-### James Smith - james@smithjw.me
-### Mac Admins Slack - [@smithjw](https://macadmins.slack.com/team/U1PEQKG9Y)
+# So what's all the fuss about CI/CD? GitHub Actions for the Mac Admin (JNUC 2023)
 
-Resources from my JNUC 2023 Conference Presentation
+#### James Smith - [https://smithjw.me](https://smithjw.me)
+
+## Links
+
+- [Listen to the Mac Admins Podcast](https://podcast.macadmins.org)
+- [Mac Admins Foundation](https://www.macadmins.org)
+- [Join the Mac Admins Slack](https://join.slack.com/t/macadmins/shared_invite/zt-20clw2xpd-fi_TB~i8n_H_i7CWxbCchw)
+- [Melbourne Apple Admins](https://melbourneappleadmins.com)
+- [Code Hosted on GitHub](https://github.com/smithjw)
 
 ## `nudge-actions`
 
